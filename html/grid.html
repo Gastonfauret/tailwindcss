@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class=" mx-4 mt-5 text-center ">
+
+    <div class="grid grid-cols-3 gap-4 my-4">
+        <div class="bg-red-400">A</div>
+        <div class="bg-red-400">B</div>
+        <div class="bg-red-400">C</div>
+        <div class="bg-red-400">D</div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 my-4">
+        <div class="bg-blue-400">A</div>
+        <div class="bg-blue-400">B</div>
+        <div class="bg-blue-400">C</div>
+        <div class="bg-blue-400">D</div>
+    </div>
+
+    <div class="grid grid-cols-4 gap-4"> <!-- Contenedor de 4 Columnas -->
+        <div class="bg-green-400 col-span-2">A</div> <!-- Ocupa 2 Columnas -->
+        <div class="bg-green-400">B</div> <!-- Ocupa 1 Columnas -->
+        <div class="bg-green-400">C</div> <!-- Ocupa 1 Columnas -->
+        <div class="bg-green-400 col-span-4">D</div> <!-- Ocupa todo el ancho: 4 Columnas -->
+    </div>
+
+    <div class="grid grid-cols-12 gap-4 my-4">
+        <div class="bg-pink-400">A</div>
+        <div class="bg-pink-400">B</div>
+        <div class="bg-pink-400">C</div>
+        <div class="bg-pink-400">D</div>
+        <div class="bg-pink-400">E</div>
+        <div class="bg-pink-400">F`</div>
+        <div class="bg-pink-400">G</div>
+        <div class="bg-pink-400">H</div>
+        <div class="bg-pink-400">I</div>
+        <div class="bg-pink-400">J</div>
+        <div class="bg-pink-400">K</div>
+        <div class="bg-pink-400">L</div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4 my-4">
+        <div class="bg-orange-400">A</div>
+        <div class="bg-orange-400">B</div>
+        <div class="bg-orange-400">C</div>
+        <div class="bg-orange-400">D</div>
+        <div class="bg-orange-400">E</div>
+        <div class="bg-orange-400">F`</div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4 my-4">
+        <div class="bg-gray-400 col-start-3">A</div>
+        <!-- Se posiciona en la tercera columna, dejando un espacio en la columna 1 y 2 -->
+        <div class="bg-gray-400 col-start-3">B</div>
+        <!-- Se posiciona en la tercera columna, dejando un espacio en la columna 1 y 2 -->
+        <div class="bg-gray-400 col-start-3">C</div>
+        <!-- Se posiciona en la tercera columna, dejando un espacio en la columna 1 y 2 -->
+    </div>
+
+    <div class="grid grid-rows-4 gap-4 my-4">
+        <div class="bg-red-300 row-span-2">A</div>
+        <div class="bg-red-300">B</div>
+        <div class="bg-red-300">C</div>
+        <div class="bg-red-300">D</div>
+
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-4 sm:grid-rows-4 gap-4 my-4">
+        <div class="bg-blue-200 row-span-3">A</div>
+        <div class="bg-blue-200 row-span-3">B</div>
+        <div class="bg-blue-200 col-span-1 row-span-3 sm:col-span-2 sm:row-span-6">C</div>
+        <div class="bg-blue-200 row-span-3">D</div>
+        <div class="bg-blue-200 row-span-3">E</div>
+    </div>
+
+</body>
+
+</html>
