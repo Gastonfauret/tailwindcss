@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+.bg-red-500 {
+    background-color: #EF4444;
+}
+
+.text-blue-900 {
+    color: #1E3A8A;
+}
+
+@tailwind utilities;
