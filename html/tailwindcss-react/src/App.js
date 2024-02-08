@@ -1,6 +1,5 @@
 import Main from "./components/Main";
 
-
 function App() {
   return (
     <>
@@ -9,7 +8,7 @@ function App() {
         <h2 className=" text-xl font-medium text-blue-400">Estoy Trabajando</h2>
         <h3 className=" text-lg font-semibold text-pink-300 text-right">con Tailwind CSS</h3>
         <h4 className=" text-center text-3xl font-extrabold text-violet-500">en React</h4>
-      </div>
+      </div>      
       <Main />
     </>
   );

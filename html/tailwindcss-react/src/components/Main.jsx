@@ -1,29 +1,18 @@
 import React from 'react'
+import '../../src/index.css'
 
-const Main = () => {
+function Main() {
+
     return (
         <>
-            <div className=" m-5 p-5 bg-gray-200">
-                <div>
-                    <h1 className=" text-lg ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut quis inventore eligendi error laudantium officia neque assumenda quaerat totam.
-                    </h1>
+            <div className=' mx-4 mt-5 text-center '>
+                
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 ">
+                    
+                    <div className="bg-orange-400 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque libero quis, voluptatibus culpa veniam dolorum ad praesentium molestias tenetur laboriosam assumenda esse nisi dolores et.</div>
+                    <div className="bg-orange-400 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, fugit.</div>
+                    <div className="bg-orange-400 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, tenetur.</div>
                 </div>
-                <div>
-                    <h2 className=" text-lg ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, laboriosam!
-                    </h2>
-                </div>
-                <div>
-                    <h3 className=" text-lg ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sapiente?
-                    </h3>
-                </div>
-
-
-
-
-
             </div>
         </>
     )
